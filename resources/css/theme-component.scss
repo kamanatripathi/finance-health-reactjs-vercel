@@ -1,0 +1,51 @@
+@import "../css/colors.scss";
+
+
+.primary-btn{
+    background-color: $slate-900;
+    color: $slate-50;
+}
+.primary-btn:hover{
+    background-color: $slate-700;
+    color: $slate-50;
+}
+.danger-btn{
+    background-color: $red-500;
+    color: $slate-50;
+}
+.danger-btn:hover{
+    background-color: $red-600;
+    color: $slate-50;
+}
+
+.outline-btn{
+    background-color: $slate-200;
+    color: $slate-950;
+    border-color: $slate-200;
+}
+.outline-btn:hover{
+    background-color: $slate-100;
+    color: $slate-950;
+    border-color: $slate-200;
+}
+
+.secondary-btn{
+    background-color: $slate-100;
+    color: $slate-950;
+}
+.secondary-btn:hover{
+    background-color: $slate-200;
+    color: $slate-950;
+}
+
+
+
+
+
+.dashboard{
+    width: -webkit-fill-available !important;
+}
+
+div[data-radix-popper-content-wrapper] {
+    pointer-events: all;
+}

@@ -1,0 +1,30 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+ 
+  ],
+  "compilerOptions": {
+
+        "baseUrl": ".",
+        "paths": {
+          "@/*": ["./resources/js/*"]
+        },
+      
+
+    
+
+    "target": "es6", // or "es5", depending on your needs
+    "module": "commonjs", // or "esnext", depending on your needs
+    "jsx": "react-jsx", // Use "react" for React 16 and below, "react-jsx" for React 17+
+    "strict": true, // Optional: enables strict type checking
+    "esModuleInterop": true, // Optional: enables compatibility with CommonJS modules
+    "skipLibCheck": true, // Optional: skips type checking of declaration files
+    "forceConsistentCasingInFileNames": true // Optional: ensures consistent file naming
+  },
+  }
+
+
+  
