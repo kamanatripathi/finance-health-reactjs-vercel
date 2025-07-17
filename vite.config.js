@@ -35,6 +35,7 @@ export default defineConfig({
           rollupOptions: {
             input: 'resources/css/app.css',
             },
+            outDir: 'public/build',
         }
         
 });
