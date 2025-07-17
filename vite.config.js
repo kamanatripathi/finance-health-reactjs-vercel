@@ -25,6 +25,17 @@ export default defineConfig({
     
             },
           },
+          build: {
+                commonjsOptions: {
+                esmExternals: true,
+                "lib": [
+                    "ES2021.String",
+                ]
+          },
+          rollupOptions: {
+            input: 'resources/css/app.css',
+            },
+        }
         
 });
 
